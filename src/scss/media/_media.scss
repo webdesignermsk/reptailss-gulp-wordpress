@@ -1,0 +1,9 @@
+.media-fake{
+  @include respond-to('500') {
+    display: none;
+  }
+  @include respond-to('700') {
+    display: none;
+  }
+
+}
