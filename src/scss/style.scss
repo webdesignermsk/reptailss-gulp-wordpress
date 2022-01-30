@@ -1,7 +1,7 @@
-
+@import 'media/_media.scss';
+@import 'base/*.scss';
 @import 'base/*.scss';
 @import 'global/*.scss';
-@import 'media/_media.scss';
 @import '**/_*.scss';
 @import '../components/**/*.scss';
 

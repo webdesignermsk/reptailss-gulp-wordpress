@@ -135,13 +135,4 @@ $rem-px-only: false !default;
 }
 
 
-@mixin respond-to($breakpoint) {
-	@if map-has-key($breakpoints, $breakpoint) {
-		@media #{inspect(map-get($breakpoints, $breakpoint))} {
-			@content;
-		}
-	} @else {
-		@error 'Не указано значение для `#{$breakpoint}`';
-	}
-}
 

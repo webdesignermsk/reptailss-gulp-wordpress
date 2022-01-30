@@ -16,4 +16,4 @@
 
 <body>
 
-@@include('components/page/_header.php')
+@@include('components/bem-blocks/header/_header.php')
